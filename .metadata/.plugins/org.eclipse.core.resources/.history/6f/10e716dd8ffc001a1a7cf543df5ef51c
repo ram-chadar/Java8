@@ -1,0 +1,20 @@
+package com.ram.java8.lambda;
+
+public class Lambda_Functional_Interface {
+	
+	
+	interface Lem{
+		public int operation(int a,int b);
+	}
+
+	public static void main(String[] args) {
+		Lem l=(a,b) ->{
+			return a+b;
+			
+		};
+		
+		l.operation(10, 20);
+
+	}
+
+}

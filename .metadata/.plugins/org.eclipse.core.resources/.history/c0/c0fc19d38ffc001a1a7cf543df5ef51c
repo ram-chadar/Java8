@@ -1,0 +1,16 @@
+package com.ram.java8.lambda;
+
+public class Lambda_Functional_Interface {
+	
+	
+	interface lem{
+		public int operation(int a,int b);
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
